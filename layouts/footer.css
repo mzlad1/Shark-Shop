@@ -1,0 +1,30 @@
+footer {
+  text-align: center;
+  padding: 20px;
+  font-family: cursive;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 400px;
+}
+
+.footer-logo {
+  margin-right: 25px;
+}
+
+.ftimg {
+  width: 150px;
+  height: 120px;
+}
+
+.copywrite {
+  flex-grow: 1;
+}
+
+.contact-us-link {
+  margin-top: 10px;
+}

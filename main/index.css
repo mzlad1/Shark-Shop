@@ -1,0 +1,109 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d9dfff;
+  margin: 0;
+  padding: 20px;
+}
+
+.tableBoard {
+  width: 78%;
+  margin-left: 20%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.add-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 10%;
+
+  text-decoration: none;
+  text-align: center;
+}
+
+.add-link:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #000000;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+.newarrival {
+  background-color: #e2f0cb;
+  font-style: italic;
+}
+
+.featured {
+  background-color: #fff2cc;
+  font-style: oblique;
+}
+
+.highdemand {
+  background-color: #cce5ff;
+  font-style: inherit;
+}
+
+.onsale {
+  background-color: #ffdada;
+  font-style: initial;
+}
+
+.normal {
+  background-color: #f0f0f0;
+  font-style: normal;
+}
+
+.out-of-stock {
+  color: #ff0000;
+}
+
+.in-stock {
+  color: #008000;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.actions img {
+  width: 5px;
+  height: 5px;
+  object-fit: contain;
+}
+
+.actions a {
+  margin-right: 10px;
+}

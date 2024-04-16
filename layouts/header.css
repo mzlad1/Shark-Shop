@@ -1,0 +1,58 @@
+.im {
+  margin-bottom: 20px;
+  width: 120px;
+  height: 100px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.user-account {
+  margin-bottom: 5px;
+}
+
+.user-account span {
+  margin-right: 10px;
+}
+
+.user-account img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: black;
+}
+
+.it {
+  margin-left: 100px;
+  color: #fda37d;
+}
+
+.user {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
